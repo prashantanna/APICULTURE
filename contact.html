@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/c68b6a5515.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c68b6a5515.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Honey Buzz-Contact Us</title>
+    
+	<style>
+		 body {
+            font-family: 'Montserrat', sans-serif;
+			
+		}
+		/* div{ */
+			/* background-color: #FEF7DC; */
+		
+        .contact-detail{
+			background-color: #FEF7DC;
+        }
+	  
+		/* #global-nav .global-header a:hover {
+			background-color: white;
+			color: black;
+		}
+
+		.personalise{
+			position: relative;
+			margin-left: auto;
+			margin-right: auto;
+			width: 870px;
+			text-align: center;
+			background-color: white;
+			padding: 49px 34px 40px;
+			border-radius: 25px;
+			font-weight: 600;
+		}
+
+		.navbar-nav {
+			display: flex;
+			flex-direction: column;
+			padding-left: 0;
+			margin-bottom: 0;
+			list-style: none;
+		}
+
+		.nav-item {
+			flex-basis: 0;
+			flex-grow: 1;
+			text-align: center;
+		}
+
+		.nav-link {
+			display: block;
+			padding: 0.5rem 1rem;
+			text-decoration: none;
+			transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+		}
+
+		.navbar-collapse {
+			flex-basis: 100%;
+			flex-grow: 1;
+			align-items: center;
+		}
+
+		@media (min-width: 992px) {
+			.navbar-expand-lg {
+				flex-wrap: nowrap;
+				justify-content: flex-start;
+			}
+			.navbar-expand-lg .navbar-nav {
+				flex-direction: row;
+			}
+			.navbar-expand-lg .navbar-nav .dropdown-menu {
+				position: absolute;
+			}
+			.navbar-expand-lg .navbar-nav .nav-link {
+				padding-right: 0.5rem;
+				padding-left: 0.5rem;
+			}
+			.navbar-expand-lg .navbar-nav-scroll {
+				overflow: visible;
+			}
+			.navbar-expand-lg .navbar-collapse {
+				display: flex !important;
+				flex-basis: auto;
+			}
+			.navbar-expand-lg .navbar-toggler {
+				display: none;
+			}
+		}
+
+		#global-nav{
+			background-color: #FFC93C;
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			z-index: 9999;
+			display: block;
+			margin: 0;
+			width: 100%;
+			height: 48px;
+			font-size: 17px;
+			user-select: none;
+			direction: ltr;
+			text-align: left;
+			box-sizing: content-box;
+			padding: 0;
+			pointer-events: auto;
+			letter-spacing: normal;
+			text-size-adjust: 100%;
+			font-weight: normal;
+		}
+
+		#global-nav .global-content{
+			background-color: #112d4e;
+			padding: 0;
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			height: 44px;
+			padding-left: 22px;
+			padding-right: 22px;
+			width: 100%;
+			height: 100%;
+			margin: 0 auto;
+			max-width: 980px;
+			z-index: 2;
+		}
+
+		#global-nav .global-header{
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+			padding-left: 0;
+			margin-bottom: 0;
+			list-style: none;
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			z-index: 9999;
+			display: block;
+			margin: 0;
+			width: 100%;
+			height: 48px;
+			background: #FFC93C;
+			text-size-adjust: 100%;
+		}
+
+		.navbar-nav {
+			display: flex;
+			flex-direction: column;
+			padding-left: 0;
+			margin-bottom: 0;
+			list-style: none;
+		}
+
+		li{
+			display: inline;
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding-left: 77px;
+			padding-right: 21px;
+			text-decoration: none;
+			font-size: 17px;
+			}
+
+		.nav-link{
+			display: block;
+			height: 48px;
+			color: black;
+			padding: 0.5rem 1rem;
+			text-decoration: none;
+			padding-top: 14px;
+			padding-bottom: 0px;
+			transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+		}
+
+		.nav-item{
+			height: 48px;
+			color: white;
+		} */
+
+		.con{
+			font-weight: lighter;
+		}
+
+        .personalise{
+			position: relative;
+			margin-left: auto;
+			margin-right: auto;
+			width: 870px;
+			text-align: center;
+			background-color: white;
+			padding: 49px 34px 40px;
+			border-radius: 25px;
+			font-weight: 600;
+		}
+
+		.news{
+			text-decoration: none;
+			color: black;
+			font-size: 30px;
+			background-color: white;
+			font-weight: 600;
+		}
+
+		input[type=text], input[type=submit], input[type=password], input[type=mail], select, input[type=number], input[type=date], textarea {
+			width: 100%;
+			padding: 12px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+		}
+
+		input[type=submit] {
+			background-color: black;
+			color: white;
+			cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+			background-color: rgb(243, 183, 71);
+			color: black;
+		}
+
+		.container {
+			background-color: white;
+			width: 100%;
+		}
+
+		.flex-container {
+			justify-content: space-between;
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 0px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 980px;
+		}
+
+		.box{
+			width: 380px;
+			text-align: left;
+			background-color: white;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 49px 34px 40px;
+			border-radius: 25px;
+		}
+        #title{
+        background-image: url('IMG-TESTPRESS/bg.jpg');
+        height: 550px;
+        font-size: 1.5rem;
+        /* font-family: 'Montserrat', sans-serif; */
+font-family: 'Ubuntu', sans-serif;
+/* margin-bottom: 7%; */
+    }
+
+    .navbar-brand {
+    display: inline-block;
+    padding-top: .9125rem;
+    padding-bottom: .3125rem;
+    margin-right: 11rem;
+    font-size: 2.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    /* margin-right: 19.5rem; */
+    list-style: none;
+}
+.user{
+    position:absolute;
+    right: 20px;
+    padding: 17px;
+}
+.user span{
+  color: #fff;
+  text-decoration: none;
+  font-size: small;
+}
+#title .btn-primary {
+    color: #fff;
+    background-color:rgb(243, 183, 71);
+    border-color: rgb(243, 183, 71);
+    margin-right: 16px;
+}
+
+#title .btn-primary:hover {
+    color: #fff;
+    background-color: rgb(248, 164, 9);
+    border-color: rgb(248, 164, 9);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(248, 164, 9);
+}
+
+.product-heading{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 145px;
+    font-size: 4rem;
+        font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+span{
+  color: #fff;
+  text-decoration: none;
+  font-size: small;
+}
+.fa-cart-plus{
+    color: #fff;
+}
+.fa-cart-plus,.fa-user{
+    color: #fff;
+
+}
+.fa-user{
+  margin-right: 7px;
+}
+
+.flex-container input{
+    font-size: small;
+}
+.contact-detail input{
+    font-size: small;
+
+}
+.contact-detail textarea{
+    font-size: small;
+
+}
+
+#footer{
+    text-align: center;
+    height: 200px;
+    background-color:rgb(243, 183, 71);
+    /* margin-top: 4%; */
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.footer-icon{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    padding-top: 7%;
+}
+.product-heading{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 145px;
+    font-size: 4rem;
+        font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+	</style>
+</head>
+<body>
+    <!-- <nav id = "global-nav">
+        <div class = "global-content">
+            <ul class = "global-header">
+                <li class="nav-item"><a class = "nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class = "nav-link" href="#">Products</a></li>
+                <li class="nav-item"><a class = "nav-link" href="#">About Us</a></li>
+                <li class="nav-item"><a class = "nav-link" href="#">Contact Us</a></li>
+                <li class="nav-item"><a class = "nav-link" href="#">Logout</a></li>
+            </ul>
+        </div>
+    </nav> -->
+
+    <section id="title" >
+        <!-- <div class="container-fluid"> -->
+    <div class="bg-img">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="" class="navbar-brand">Honey</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="index2.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="product1.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link nav-item dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="about.html">About Us</a>
+                <a class="dropdown-item active" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                <a class="dropdown-item" href="data.xml">Stock Data</a>
+              </div>
+            </li>
+            
+			<div class="user">
+				<li style="float:right" class="cart">
+				  <a href="cart.html"><i class="fas fa-cart-plus"></i><span>0</span></a>
+				</li>
+				<li style="float:right ; padding-right: 25px;" >
+          <!-- <i class="fas fa-user"></i> -->
+          <img width = "25px" src="https://img.icons8.com/office/2x/user.png">
+        </li>
+				<!-- <li style="float:right" >
+				  <i class="fas fa-user"></i>
+				</li> -->
+			  </div>
+          </ul>
+          
+          
+        </div>
+      </nav>
+      <h1 class="product-heading">Contact Us</h1>
+      
+    
+    </div>
+    </section>
+
+    <section class="contact-detail">
+        <br><br><br><br>
+    <div class="personalise">
+        <h1 align="left">Contact</h1>
+        <p class="con" align="left">We value all your opinions, suggests or questions and we try to get back shortly to each contact. Get in touch!</p>
+        <div class="news">
+            <form name = "myForm" action="">
+                <div class="news">
+                    <input type="text" placeholder="Name" name="name" required="1"/>
+                    <input type="text" placeholder="Mobile" name="number" required="1"/>
+                    <input type="text" placeholder="Email address" name="mail" required="1"/>
+                    <textarea name="msg" placeholder="Message" id="msg" cols="30" rows="10" required="1"></textarea>
+                    <div class="container">
+                        <input type="submit" value="Send"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br><br>
+    <div class="flex-container">
+        <div class="box">
+            <h1 align="left">Contact and Support</h1>
+            <br>
+            <p class="con" align="left">We are availabe 7 days a week between 9:00 and 18:00 IST.</p>
+            <p class="con" align="left">Mail us at support@contact.co .</p>
+            <p class="con" align="left">You can also contact us via online contact form.</p>
+        </div>
+        <div class="box">
+            <h1 align="left">Newsletter</h1>
+            <p class="con" align="left">Sign up for new content, updates and news. Please insert your email in the field below and click on "Submit".</p>
+            <div class="news">
+                <input type="text" placeholder="Email address" name="mail" required="1"/>
+            </div>
+            <div class="container">
+                <input type="submit" value="Subscribe"/>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+</section>
+
+<footer id="footer">
+    <div class="col-lg-12">
+      <i class="footer-icon fab fa-twitter"></i>
+      <i class="footer-icon fab fa-facebook-f"></i>
+      <i class="footer-icon fab fa-instagram"></i>
+      <i class="footer-icon far fa-envelope"></i>
+    </div>
+    <div class="col-lg-12">
+  <p class="footer-text">© Copyright 2018 Honey Buzz</p>
+</div>
+</div>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="products_to_cart_2.js"></script>
+</body>
+</html>

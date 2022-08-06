@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="data.xsl" ?>
+
+<store>
+    <product id ="001">
+        <name> Honey Comb </name>
+        <price> $20.99 </price>
+        <stock> 30 </stock>
+    </product>
+
+    <product id ="002">
+        <name> Wild Forest Honey </name>   
+        <price> $15.88 </price>
+        <stock> 35 </stock>
+    </product>
+
+    <product id ="003">
+        <name> Forest Honey</name>   
+        <price> $10.67 </price>
+        <stock> 40 </stock>
+    </product>
+
+    <product id ="004">
+        <name> Honey Bee </name>   
+        <price> $12.90 </price>
+        <stock> 20 </stock>
+    </product>
+
+    <product id ="005">
+        <name> Honey Face Cream </name>
+        <price> $20.77 </price>
+        <stock> 15 </stock>
+    </product>
+
+    <product id ="006">
+        <name> Meadow Honey </name>
+        <price> $15.10 </price>
+        <stock> 39 </stock>
+    </product>
+
+    <product id ="007">
+        <name> Organic Honey </name>
+        <price> $15.11 </price>
+        <stock> 40 </stock>
+    </product>
+
+    <product id ="008">
+        <name> Honey Jam </name>
+        <price> $15.85 </price>
+        <stock> 10 </stock>
+    </product>
+    
+    <product id ="009">
+        <name> Pure Flower Honey </name>
+        <price> $9.63 </price>
+        <stock> 39 </stock>
+    </product>
+
+    <product id ="010">
+        <name> Rain Forest Honey </name>
+        <price> $9.87 </price>
+        <stock> 50 </stock>
+    </product>
+
+    <product id ="011">
+        <name> Orange Blossom </name>
+        <price> $9.67 </price>
+        <stock> 39 </stock>
+    </product>
+
+    <product id ="012">
+        <name> Manuca Tea Honey </name>
+        <price> $11.28 </price>
+        <stock> 45 </stock>
+    </product>
+
+    <product id ="013">
+        <name> Dark Honey </name>
+        <price> $9.63 </price>
+        <stock> 60 </stock>
+    </product>
+
+    <product id ="014">
+        <name> Clover Honey </name>
+        <price> $9.69 </price>
+        <stock> 30 </stock>
+    </product>
+
+    <product id ="014">
+        <name> Musturd Honey </name>
+        <price> $7.73 </price>
+        <stock> 39 </stock>
+    </product>
+
+    <product id ="015">
+        <name> Black Seed Honey </name>
+        <price> $8.47 </price>
+        <stock> 39 </stock>
+    </product>
+   
+</store>

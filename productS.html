@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/c68b6a5515.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+<title>Honey Buzz</title>
+<style>
+.product-card{
+    margin: auto;
+    margin-bottom: 40px;
+    /* padding: 20px; */
+    width: 300px;
+    /* height: 400px; */
+}
+.fa-star-half-alt,.fa-star{
+    color: rgb(243, 183, 71);
+}
+.icon:hover{
+    color: rgb(248, 164, 9);
+
+}
+.fa-cart-plus{
+    color: #fff;
+
+}
+.btn-primary {
+    color: #fff;
+    background-color:rgb(243, 183, 71);
+    border-color: rgb(243, 183, 71);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(248, 164, 9);
+    border-color: rgb(248, 164, 9);
+}
+
+
+.product-heading{
+    text-align: center;
+}
+
+
+.add_to_cart{
+    margin-left: 5%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(248, 164, 9);
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+ li a:hover:not(.active) {
+  background-color: rgb(221, 245, 10);
+}
+
+.active {
+  background-color: rgb(199, 87, 13);
+}
+</style>
+    
+</head>
+<body>
+
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="index.html">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li style="float:right" class="cart">
+      <a href="cart.html"><ion-icon name="basket"></ion-icon>Cart <span>0</span></a>
+    </li>
+  </ul> 
+
+    <h1 class="product-heading">Products</h1>
+    <div class="Cart_contain_products">
+    <div class="row" >
+    <div class="card product-card">
+        <img class="card-img-top" src="IMG/pro1.jpg" alt="Card image cap">
+        <div class="card-body">
+            <p class="icon"><i class="fas fa-star icon"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+          <h4 class="card-title">Pure Flower Honey</h4>
+          <p class="card-text">$9.63  <a href="#" class="btn btn-primary add_to_cart c1"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+          </p>
+        </div>
+      </div>
+    
+    <div class="card product-card" >
+        <img class="card-img-top" src="IMG/pro2.jpg" alt="Card image cap">
+        <div class="card-body">
+            <p class="icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+          <h4 class="card-title">Rain Forest Honey</h4>
+          <p class="card-text">$9.87  <a href="#" class="btn btn-primary add_to_cart c2"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+        </p>
+        </div>
+      </div>
+    <div class="card product-card">
+        <img class="card-img-top" src="IMG/pro3.jpg" alt="Card image cap">
+        <div class="card-body">
+            <p class="icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+          <h4 class="card-title">Orange Blossom</h4>
+          <p class="card-text">$9.67 <a href="#" class="btn btn-primary add_to_cart c3"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+          </p>
+        </div>
+      </div>
+      <div class="card product-card">
+        <img class="card-img-top" src="IMG/pro4.jpg" alt="Card image cap">
+        <div class="card-body">
+            <p class="icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+          <h4 class="card-title">Manuca Tea Honey</h4>
+          <p class="card-text">$11.28 <a href="#" class="btn btn-primary add_to_cart c4"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+   <div class="row">
+    <div class="card product-card" >
+        <img class="card-img-top" src="IMG/pro5.jpg" alt="Card image cap">
+        <div class="card-body">
+            <p class="icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+          <h4 class="card-title">Dark Honey</h4>
+          <p class="card-text">$9.63 <a href="#" class="btn btn-primary add_to_cart c5"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+          </p>
+        </div>
+      </div>
+    <div class="card product-card" >
+        <img class="card-img-top" src="IMG/pro6.jpg" alt="Card image cap">
+        <div class="card-body">
+            <p class="icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+          <h4 class="card-title">Clover Honey</h4>
+          <p class="card-text">$9.69  <a href="#" class="btn btn-primary add_to_cart c6"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+          </p>
+        </div>
+      </div>
+    <div class="card product-card" >
+        <img class="card-img-top" src="IMG/pro7.jpg" alt="Card image cap">
+        <div class="card-body">
+            <p class="icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+          <h4 class="card-title">Musturd Flower Honey</h4>
+          <p class="card-text">$7.73   <a href="#" class="btn btn-primary add_to_cart c7"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+        </p>
+        </div>
+      </div>
+    <div class="card product-card" >
+        <img class="card-img-top" src="IMG/pro8.jpg" alt="Card image cap">
+        <div class="card-body">
+            <p class="icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+          <h4 class="card-title">Black Seed Honey</h4>
+          <p class="card-text">$8.47  <a href="#" class="btn btn-primary add_to_cart c8"><i class="fas fa-cart-plus"></i> Add To Cart</a>
+        </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="products_to_cart.js"></script>
+</body>
+</html>

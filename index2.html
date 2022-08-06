@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/c68b6a5515.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Honey Buzz - Welcome</title>
+    <style>
+/* TITLE */
+#title{
+        background-image: url('IMG-TESTPRESS/bg.jpg');
+        height: 550px;
+        font-size: 1.5rem;
+        /* font-family: 'Montserrat', sans-serif; */
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .navbar-brand {
+    display: inline-block;
+    padding-top: .9125rem;
+    padding-bottom: .3125rem;
+    margin-right: 11rem;
+    font-size: 2.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 19.5rem;
+    list-style: none;
+}
+#title .btn-primary {
+    color: #fff;
+    background-color:rgb(243, 183, 71);
+    border-color: rgb(243, 183, 71);
+    margin-right: 16px;
+}
+
+#title .btn-primary:hover {
+    color: #fff;
+    background-color: rgb(248, 164, 9);
+    border-color: rgb(248, 164, 9);
+}
+.fa-cart-plus,.fa-user{
+    color: #fff;
+
+}
+.fa-user{
+  margin-right: 7px;
+}
+
+.user{
+    position:absolute;
+    right: 20px;
+    padding: 17px;
+}
+
+span{
+  color: #fff;
+  text-decoration: none;
+  font-size: small;
+}
+
+
+/* About Us */
+.about-heading{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#aboutUs{
+    padding: 65px;
+    /* margin-top: 7%; */
+    /* margin-bottom: 7%; */
+}
+#aboutUs p{
+    padding: 2%;
+   
+}
+.aboutus-img{
+    height: 400px;
+    /* box-shadow: 6px 8px 8px #888888; */
+}
+
+/* Services */
+.services-icon{
+     text-align: center;
+     padding: 0px;
+}
+#services{
+    padding: 65px;
+    background-color:rgb(243, 183, 71);
+
+}
+
+.services-heading{
+    text-align: center;
+    padding: 15px;
+}
+
+.service-img{
+    border-radius: 100%;
+    background-color: #f3f1ef;
+    width: 27%;
+    margin: 16px;
+}
+.fa-check-circle{
+    color:rgb(243, 183, 71) ;
+    padding-right: 16px;
+    position: relative;
+    top: 6px;
+}
+/* Testimonial */
+#testimonials{
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color:rgb(243, 183, 71) ;
+    /* color: #fff; */
+}
+
+.testimonial-text{
+    /* font-family: "Montserrat-Bold"; */
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press */
+#press{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 3.8%;
+    margin-right: 3%;
+}
+
+.press-logo{
+    padding: 4%;
+}
+
+/* Trending */
+.trending-image{
+    /* width: 20%; */
+    border-radius: 100%;
+    /* padding: 20px; */
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#trending{
+    padding-bottom: 65px;
+    padding-top: 60px;
+    text-align: center;
+    /* margin-top: 7%; */
+}
+
+/* .btn-primary {
+    color: #fff;
+    background-color:rgb(243, 183, 71);
+    border-color: rgb(243, 183, 71);
+} */
+.button-trending{
+    color: #fff;
+    background-color:rgb(243, 183, 71);
+    border-color: rgb(243, 183, 71); 
+    margin: auto;
+    margin-top: 25px;
+}
+
+.button-trending:hover{
+    color: #fff;
+    background-color: rgb(248, 164, 9);
+    border-color: rgb(248, 164, 9);
+}
+/* .btn-primary:hover {
+    color: #fff;
+    background-color: rgb(248, 164, 9);
+    border-color: rgb(248, 164, 9);
+} */
+.what-img{
+    width: 80%;
+    height:350px;
+}
+
+#footer{
+    text-align: center;
+    height: 200px;
+    background-color:rgb(243, 183, 71);
+    margin-top: 4%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.footer-icon{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    padding-top: 7%;
+}
+/* 
+.blog-box{
+    margin: auto;
+} */
+.card-1{
+   position: relative;
+   left: 52%;
+}
+.card-2{
+   position: relative;
+    left: 15%;
+}
+.card-3{
+    position: relative;
+    right: 21%;
+}
+.blog .btn-primary {
+    color: #fff;
+    background-color:rgb(243, 183, 71);
+    border-color: rgb(243, 183, 71);
+    margin-right: 16px;
+}
+
+.blog .btn-primary:hover {
+    color: #fff;
+    background-color: rgb(248, 164, 9);
+    border-color: rgb(248, 164, 9);
+}
+    </style>
+</head>
+<body>
+   
+    <section id="title" >
+        <!-- <div class="container-fluid"> -->
+    <div class="bg-img">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="" class="navbar-brand">Honey Buzz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link nav-item" href="index2.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item" href="product1.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link nav-item dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="about.html">About Us</a>
+                <a class="dropdown-item" href="contact.html">Contact Us</a>
+                <a class="dropdown-item" href="data.xml">Stock data</a>
+                <a class="nav-link" href="logout.php">Logout</a>
+              </div>
+            </li>   
+            
+            <div class="user">
+                <li style="float:right" class="cart">
+                  <a href="cart.html"><i class="fas fa-cart-plus"></i><span>0</span></a>
+                </li>
+                <li style="float:right ; padding-right: 15px;" >
+                  <img width = "25px" src="https://img.icons8.com/office/2x/user.png">
+                </li>
+                
+            </div>
+          </ul>
+          
+        </div>
+      </nav>
+      <h1 style="color: white;font-family: 'Montserrat'; line-height: 1.5;font-weight: bolder;font-size: 4rem;margin-top: 6%;margin-left: 25px;"> High Quality Honey</h1>
+       <h2 style="color: white;font-family: 'Montserrat'; line-height: 1.2;font-size: 2.5rem;margin-left: 25px;"> Black Seed Sidr Honey From Spai
+
+    </div>
+    </section>
+    
+<!-- ABOUT US -->
+    
+
+    <section id="aboutUs">
+
+    
+        <h2 class="about-heading" style="font-family:'Montserrat', sans-serif;font-size: 2.5rem;">About Us</h2>
+        
+        <div class="row">
+            <div class="col-lg-4">
+        <p style="font-family:'Montserrat', sans-serif;font-size: 1rem;">Honey buzz co. ensures quality honey product. We deeply care about our customers.Our purpose
+            Unlocking the power of food to enhance quality of life for everyone, today and for generations to come. That is our purpose. 
+            At Honey Buzz Co. , we constantly explore and push the boundaries of what is possible with foods, beverages, and nutritional health solutions to enhance quality of life and contribute to a healthier future. We focus our energy and resources where unlocking the power of food can make the greatest difference to the lives of people and pets, protect and enhance the environment.
+             
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <img class="aboutus-img" src="IMG-TESTPRESS/ABOUT.jpg" alt="">
+        </div>
+      <div class="col-lg-4">
+        <h3 style="font-family:'Montserrat', sans-serif;font-size: 1.2rem;">Useful Properties of Honey</h3>
+        <p style="font-family:'Montserrat', sans-serif;font-size: 1rem;"><i class="fas fa-check-circle fa-2x" ></i><strong>regulates</strong> metabolic processes</p>
+        <p style="font-family:'Montserrat', sans-serif;font-size: 1rem;"><i class="fas fa-check-circle fa-2x"></i><strong>increases</strong> immunity</p>
+        <p style="font-family:'Montserrat', sans-serif;font-size: 1rem;"><i class="fas fa-check-circle fa-2x"></i>honey<strong>improves</strong> blood composition</p>
+        <p style="font-family:'Montserrat', sans-serif;font-size: 1rem;"><i class="fas fa-check-circle fa-2x"></i><strong>helps</strong>to cope with insomnia</p>
+        <p style="font-family:'Montserrat', sans-serif;font-size: 1rem;"><i class="fas fa-check-circle fa-2x"></i><strong>gives energy</strong>to the body, restores strength</p>
+      </div>
+      </div>
+      </section>
+      
+      <section id="services">
+      
+        <h2 class="services-heading">Our Services</h2>
+      
+      
+        <div class="row">
+            <div class="col-lg-4 services-icon">
+        <img src="IMG-TESTPRESS/service-1.png" class="service-img" alt="">
+        <h3>Honey Production</h3>
+        <p>Professional beekeepers take a great care of the farm and monitor all processes to gather honey in time.</p>
+      </div>
+        <div class="col-lg-4 services-icon">
+            <img src="IMG-TESTPRESS/service-2.png" class="service-img" alt="">
+        <h3>Beekeeping Classes</h3>
+        <p>It cover the basics of beekeeping and introduce you to all the elements of our beehive management approach</p>
+      </div>
+        <div class="col-lg-4 services-icon">
+            <img src="IMG-TESTPRESS/service-4.png" class="service-img" alt="">
+        <h3>Swarm Removal</h3>
+        <p>FREE BEES!!! Best tips for Swarm Trapping! | Using a Nucleus Hive for Swarm trapping in 2021.</p>
+      </div>
+      </div>
+      
+      </section>
+      
+      <!-- TRENDING -->
+      <section id="trending">
+      <h2 class="trending-heading" style="font-family:'Montserrat', sans-serif;font-size: 2.5rem;">Trending</h2>
+      <div class="row">
+        <div class="col-lg-3">
+      <img class="trending-image" src="IMG/pro15.jpg" alt="">
+      <h3 style="font-family:'Montserrat', sans-serif;">Meadow Honey</h3>
+      </div>
+      <div class="col-lg-3">
+      <img class="trending-image" src="IMG/pro9.jpg" alt="">
+      <h3>Honey Face Cream</h3>
+      </div>
+      
+      <div class="col-lg-3">
+      <img class="trending-image" src="IMG/pro16.jpg" alt="">
+      <h3 style="font-family:'Montserrat', sans-serif;">Organic Honey</h3>
+      </div>
+      
+      <div class="col-lg-3">
+      <img class="trending-image" src="IMG/pro11.jpg" alt="">
+      <h3 style="font-family:'Montserrat', sans-serif;">Forest Honey</h3>
+      </div>
+      <a href= "product1.html" class="btn btn-primary btn-lg button-trending">All Products</a>
+      </div>
+      </section>
+      
+      <!-- Testimonial -->
+      <section id="testimonials">
+      
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="testimonial-text">There honey is 100% pure and natural and also it is the best antiseptic and remedy to cold, cough and fever.</h2>
+              <img class="testimonial-image" src="IMG-TESTPRESS/p4.jpg" alt="dog-profile">
+              <em>Ankit, Patna</em>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text">The honey is full of vitamins, minerals, fructose and natural ingredients that are great for health. It is the best substitute to sugar and other synthetic sweeteners. Honey comes with a tonnes of benefits to our health, so should be used regularly.</h2>
+              <img class="testimonial-image" src="IMG-TESTPRESS/p3.jpg" alt="lady-profile">
+              <em>Ashish, Mumbai</em>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text">	Honey comes in  seal packed jar of plastic. There price is also comparatively lower than honey of other brands.</h2>
+              <img class="testimonial-image" src="IMG-TESTPRESS/p1.jpg" alt="lady-profile">
+              <em>Rahul, Delhi</em>
+          </div>
+      </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </section>
+      
+      
+      <!-- Press -->
+      
+      <section id="press">
+        <img class="press-logo" src="IMG-TESTPRESS/press-1.png" alt="tc-logo">
+        <img class="press-logo" src="IMG-TESTPRESS/press-2.png" alt="tnw-logo">
+        <img class="press-logo" src="IMG-TESTPRESS/press-3.png" alt="biz-insider-logo">
+        <img class="press-logo" src="IMG-TESTPRESS/press-4.png" alt="mashable-logo">
+        <img class="press-logo" src="IMG-TESTPRESS/press-5.png" alt="mashable-logo">
+        <img class="press-logo" src="IMG-TESTPRESS/press-6.png" alt="mashable-logo">
+      
+      </section>
+      
+      <section class="video">
+        <!-- style="margin-left: 25%;" -->
+            <iframe  width="100%" height="500px" src="https://www.youtube.com/embed/Z54bL6kjyOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      
+      <section class="blog">
+        <h2 style="text-align: center;margin-bottom: 4%;">Blogs</h2>
+          <div class="blog-box row">
+            <div class="col-lg-4">
+        <div class="card card-1" style="width: 18rem;">
+            <img src="IMG/pro12.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+          <h4 class="card-title" style="font-family:'Montserrat', sans-serif;">Which honey are you using processed honey or Raw Honey?</h4>
+              <p class="card-text" style="font-family:'Montserrat', sans-serif;">The honey iscategorized as processed honey where heated honey to avoid crystallisation of Raw Honey where honey extracted from honeycomb and packed in bottle as it is. </p><br>
+          <button type="button" class="btn btn-primary btn-lg  nav-sign-in">Read More</button>
+      
+            </div>
+          </div>
+          </div>
+      
+          
+      
+          <div class="col-lg-4">
+          <div class="card card-2" style="width: 18rem;">
+            <img src="IMG/pro14.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+          <h4 class="card-title" style="font-family:'Montserrat', sans-serif;">Why in India all supermarket or big brand sells processed honey?</h4>
+              <p class="card-text" style="font-family:'Montserrat', sans-serif;">The main reason behind this is lack knowledge among the people about honey crystallisation is the main reason behind processed honey. Honey crystllisation is a natural process due to mismatch</p>
+          <button type="button" class="btn btn-primary btn-lg  nav-sign-in">Read More</button>
+              
+            </div>
+          </div>
+          </div>
+      
+          <div class="col-lg-4">
+      
+          <div class="card card-3" style="width: 18rem;">
+            <img src="IMG-TESTPRESS/bg3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+          <h4 class="card-title" style="font-family:'Montserrat', sans-serif;">How does Bee make Honey?</h4>
+              <p class="card-text" style="font-family:'Montserrat', sans-serif;">Nectar - a sugar liquid - is extracted from flowers using a bee's long, tube-shaped tongue and stored in its extra stomatch, or "crop." .While sloshing around in the crop,....</p>
+          <button type="button" class="btn btn-primary btn-lg  nav-sign-in">Read More</button>
+              <br><br><br><br><br><br>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      
+      <footer id="footer">
+      
+          
+      
+        <div class="col-lg-12">
+          <i class="footer-icon fab fa-twitter"></i>
+          <i class="footer-icon fab fa-facebook-f"></i>
+          <i class="footer-icon fab fa-instagram"></i>
+          <i class="footer-icon far fa-envelope"></i>
+        </div>
+        <div class="col-lg-12">
+      <p class="footer-text">© Copyright 2018 Honey Buzz</p>
+      </div>
+      </div>
+      </footer>
+    
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="products_to_cart_2.js"></script>
+</body>
+</html>
